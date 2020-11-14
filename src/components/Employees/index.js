@@ -12,7 +12,7 @@ function Employees() {
                     <p>Name</p>
                 </div>
                 <div className="col col-title">
-                    <p>Photo</p>
+                    <p>Phone</p>
                 </div>
                 <div className="col col-title">
                     <p>Email</p>
