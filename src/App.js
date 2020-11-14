@@ -16,6 +16,7 @@ function App() {
       <Wrapper>
         <Heading />
         <Search />
+        <Employees />
       </Wrapper>
     </div>
   );
@@ -23,8 +24,7 @@ function App() {
 
 export default App;
 
-//Heading
-// Search
+
 //5 columns
   // Image Name Phone Email DOB
 
