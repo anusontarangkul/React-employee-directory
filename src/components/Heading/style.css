@@ -1,0 +1,13 @@
+.header-style {
+  background-color: lightskyblue;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.h1-style {
+  font-weight: bold;
+}
+
+.p-style {
+  font-size: larger;
+}
