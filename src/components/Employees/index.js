@@ -1,5 +1,6 @@
 import React from 'react';
-import Sort from "../Sort"
+import Ascend from "../Ascend";
+import Descend from "../Descend"
 import "./style.css";
 
 
@@ -10,8 +11,10 @@ function Employees({ employeeList, setEmployee }) {
                 <thead>
                     <tr>
                         <th scope="col">Image</th>
-                        <th scope="col" onClick={() => setEmployee({ type: "sort" })}>Name&nbsp;
-                        <Sort />
+                        <th scope="col" >Name&nbsp;
+                        <span onClick={() => setEmployee({ type: "ascend" })}><Ascend /></span>
+                            <span onClick={() => setEmployee({ type: "descend" })}><Descend /></span>
+
                         </th>
                         <th scope="col">Phone</th>
                         <th scope="col">Email</th>

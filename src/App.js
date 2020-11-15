@@ -13,8 +13,11 @@ function App() {
     switch (action.type) {
       case "change":
         return action.input;
-      case "sort":
+      case "ascend":
         return [...state].sort((a, b) => (a.name > b.name) ? 1 : -1);
+      case "descend":
+        return [...state].sort((a, b) => (a.name > b.name) ? -1 : 1);
+
       default:
         return employeeList;
     }
