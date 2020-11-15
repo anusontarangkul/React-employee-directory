@@ -1,6 +1,7 @@
 # Employee Directory
 
 This applications helps you organize your employees' information.
+[Deployment](https://anusontarangkul.github.io/employee-directory/)
 
 ## Description
 
@@ -19,7 +20,7 @@ You are able to find your team members in this app. You can filter by names in a
 
 ## Installation
 
-Click on the deployed link.
+Click on the deployed [link](https://anusontarangkul.github.io/employee-directory/).
 
 ## Usage
 
@@ -27,7 +28,7 @@ To find an employee, you may enter their name in the search bar. As you type in 
 
 ## Hightlights
 
-![highlight](./hightlight.png)
+![highlight](./highlight.png)
 
 UseReducer was used to organize the state of the code. We have a case for ascending, descending, and the default organization of the employee directory.
 
