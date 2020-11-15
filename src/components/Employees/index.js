@@ -1,4 +1,5 @@
 import React from 'react';
+import Sort from "../Sort"
 import "./style.css";
 
 
@@ -9,7 +10,9 @@ function Employees({ employeeList }) {
                 <thead>
                     <tr>
                         <th scope="col">Image</th>
-                        <th scope="col">Name</th>
+                        <th scope="col">Name&nbsp;
+                        <Sort />
+                        </th>
                         <th scope="col">Phone</th>
                         <th scope="col">Email</th>
                         <th scope="col">DOB</th>
