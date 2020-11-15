@@ -11,10 +11,14 @@ function Search({ handleChange }) {
                     placeholder="Search"
                     ref={inputRef}
                     onChange={() => handleChange(inputRef.current.value)}
+
+
                 />
             </div>
         </form>
     )
 }
+
+
 
 export default Search;

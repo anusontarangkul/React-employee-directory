@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import React, { useReducer, useState } from "react";
 import Heading from "./components/Heading";
 import Search from "./components/Search";
 import Wrapper from "./components/Wrapper";
@@ -6,13 +6,8 @@ import Employees from "./components/Employees";
 import employeeList from "./components/employeeList";
 import './App.css';
 
-
-
-
-
-
-
 function App() {
+
 
   const [employeeState, setEmployee] = useReducer((state, action) => {
     switch (action.type) {
@@ -25,12 +20,17 @@ function App() {
     }
   }, employeeList)
 
-  function handleChange(searched) {
+
+
+
+
+  const handleChange = (value) => {
     const matchingEmployee = [];
     for (let i = 0; i < employeeList.length; i++) {
       let currentEmployee = employeeList[i];
-      if (currentEmployee.name.includes(searched)) {
+      if (currentEmployee.name.toLowerCase().includes(value.toLowerCase())) {
         matchingEmployee.push(currentEmployee)
+
       }
     }
     setEmployee({
@@ -38,6 +38,8 @@ function App() {
       input: matchingEmployee
     });
   }
+
+
   return (
     <div className="App">
       <Wrapper>
