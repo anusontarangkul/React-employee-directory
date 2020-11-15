@@ -16,3 +16,7 @@
   border-bottom: black;
   border-bottom-style: solid;
 }
+
+.info {
+  vertical-align: middle !important;
+}

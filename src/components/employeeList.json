@@ -1,37 +1,66 @@
 [
   {
-    "image": "https://www.flaticon.com/free-icon/man_146031",
+    "image": "https://www.flaticon.com/svg/static/icons/svg/146/146031.svg",
     "name": "Brad Smith",
     "phone": "305-423-9999",
     "email": "bradsmith@gmail.com",
     "DOB": "02/05/1990"
   },
   {
-    "image": "https://www.flaticon.com/free-icon/man_146029",
-    "name": "Sean Smith",
+    "image": "https://www.flaticon.com/svg/static/icons/svg/146/146037.svg",
+    "name": "Jonas Beech",
     "phone": "305-423-9998",
-    "email": "seansmith@gmail.com",
+    "email": "jonasbeech@gmail.com",
     "DOB": "1/11/1990"
   },
   {
-    "image": "https://www.flaticon.com/free-icon/woman_146036",
-    "name": "Samantha Smith",
+    "image": "https://www.flaticon.com/svg/static/icons/svg/146/146036.svg",
+    "name": "Priscilla Sharma",
     "phone": "305-423-9997",
-    "email": "samanthasmith@gmail.com",
+    "email": "priscillasharma@gmail.com",
     "DOB": "10/05/1990"
   },
   {
-    "image": "https://www.flaticon.com/free-icon/woman_146030",
-    "name": "Christine Smith",
+    "image": "https://www.flaticon.com/svg/static/icons/svg/146/146030.svg",
+    "name": "Lacy Colley",
     "phone": "305-423-9996",
-    "email": "christinesmith@gmail.com",
+    "email": "lacycolley@gmail.com",
     "DOB": "02/21/1990"
   },
   {
-    "image": "https://www.flaticon.com/free-icon/man_146035",
-    "name": "David Smith",
-    "phone": "305-423-9995",
-    "email": "davidsmith@gmail.com",
-    "DOB": "04/05/1990"
+    "image": "https://www.flaticon.com/svg/static/icons/svg/146/146033.svg",
+    "name": "Eathan Lester",
+    "phone": "305-423-0099",
+    "email": "eathanlester@gmail.com",
+    "DOB": "04/15/1986"
+  },
+  {
+    "image": "https://www.flaticon.com/svg/static/icons/svg/146/146029.svg",
+    "name": "Tobi Weir",
+    "phone": "305-423-2195",
+    "email": "tobiweir@gmail.com",
+    "DOB": "06/05/1994"
+  },
+  {
+    "image": "https://www.flaticon.com/svg/static/icons/svg/146/146035.svg",
+    "name": "Finbar Bradshaw",
+    "phone": "305-423-9922",
+    "email": "finbarbradshaw@gmail.com",
+    "DOB": "04/05/1988"
+  },
+  {
+    "image": "https://www.flaticon.com/svg/static/icons/svg/146/146034.svg",
+    "name": "Violet Donnelly",
+    "phone": "305-423-2312",
+    "email": "violetdonnelly@gmail.com",
+    "DOB": "04/05/1993"
+  },
+
+  {
+    "image": "https://www.flaticon.com/svg/static/icons/svg/146/146032.svg",
+    "name": "Portia Howell",
+    "phone": "305-423-0000",
+    "email": "portiahowell@gmail.com",
+    "DOB": "01/21/1985"
   }
 ]

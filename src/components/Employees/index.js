@@ -16,12 +16,14 @@ function Employees({ employeeList }) {
                     </tr>
                 </thead>
                 <tbody>
-                    {employeeList.map(employee => <tr key={employee.id}>
-                        <td><img id={employeeList.name} src={employeeList.image} /></td>
-                        <td>{employeeList.name}</td>
-                        <td>{employeeList.phone}</td>
-                        <td>{employeeList.email}</td>
-                        <td>{employeeList.DOB}</td>
+                    {employeeList.map(employee => <tr key={employee.name}>
+                        <td>
+                            <img src={employee.image} />
+                        </td>
+                        <td className="info">{employee.name}</td>
+                        <td className="info">{employee.phone}</td>
+                        <td className="info">{employee.email}</td>
+                        <td className="info">{employee.DOB}</td>
                     </tr>)}
                 </tbody>
             </table>
