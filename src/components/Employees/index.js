@@ -3,14 +3,14 @@ import Sort from "../Sort"
 import "./style.css";
 
 
-function Employees({ employeeList }) {
+function Employees({ employeeList, setEmployee }) {
     return (
         <div className="container">
             <table className="table">
                 <thead>
                     <tr>
                         <th scope="col">Image</th>
-                        <th scope="col">Name&nbsp;
+                        <th scope="col" onClick={() => setEmployee({ type: "sort" })}>Name&nbsp;
                         <Sort />
                         </th>
                         <th scope="col">Phone</th>
@@ -19,7 +19,7 @@ function Employees({ employeeList }) {
                     </tr>
                 </thead>
                 <tbody>
-                    {employeeList.map(employee => <tr key={employee.name}>
+                    {employeeList.map(employee => <tr key={employee.id}>
                         <td>
                             <img src={employee.image} />
                         </td>
