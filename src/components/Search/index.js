@@ -1,19 +1,16 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import "./style.css";
 
-function Search(props) {
+function Search({ handleChange }) {
+    const inputRef = useRef();
     return (
         <form className="search">
             <div className="form-group">
                 <input
-                    value={props.search}
-                    onChange={props.handleInputChange}
-                    name="term"
-                    list="term"
                     type="text"
-                    className="form-control"
                     placeholder="Search"
-                    id="term"
+                    ref={inputRef}
+                    onChange={() => handleChange(inputRef.current.value)}
                 />
             </div>
         </form>

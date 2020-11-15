@@ -8,7 +8,7 @@ function Employees(props) {
             <div className="row row-style container-style">
                 <div className="col col-title">
                     <p>Image</p>
-                    {props.employee_db.map(employee => (
+                    {props.employeeList.map(employee => (
                         <img src={employee.image} className="list-group-item"
 
                         />
@@ -16,7 +16,7 @@ function Employees(props) {
                 </div>
                 <div className="col col-title">
                     <p>Name</p>
-                    {props.employee_db.map(employee => (
+                    {props.employeeList.map(employee => (
                         <li className="list-group-item">
                             {employee.name}
                         </li>
@@ -27,7 +27,7 @@ function Employees(props) {
                 </div>
                 <div className="col col-title">
                     <p>Phone</p>
-                    {props.employee_db.map(employee => (
+                    {props.employeeList.map(employee => (
                         <li className="list-group-item">
                             {employee.phone}
                         </li>
@@ -39,7 +39,7 @@ function Employees(props) {
                 </div>
                 <div className="col col-title">
                     <p>Email</p>
-                    {props.employee_db.map(employee => (
+                    {props.employeeList.map(employee => (
                         <li className="list-group-item">
                             {employee.email}
                         </li>
@@ -50,7 +50,7 @@ function Employees(props) {
                 </div>
                 <div className="col col-title">
                     <p>DOB</p>
-                    {props.employee_db.map(employee => (
+                    {props.employeeList.map(employee => (
                         <li className="list-group-item">
                             {employee.DOB}
                         </li>

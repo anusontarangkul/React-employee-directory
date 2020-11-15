@@ -62,6 +62,8 @@ export default class DataArray extends Component {
     }
 
     render() {
-
+        return null;
     }
+
+
 }
