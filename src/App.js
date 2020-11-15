@@ -13,12 +13,26 @@ import './App.css';
 
 
 function App() {
+
+  function handleChange(searched) {
+    const matchingEmployee = [];
+    for (let i = 0; i < employeeList.length; i++) {
+      let currentEmployee = employeeList[i];
+      if (currentEmployee.name.inclues(searched)) {
+        matchingEmployee.push(currentEmployee)
+      }
+    }
+    setEmployes({
+      type: "change",
+      input: matchingEmployee
+    });
+  }
   return (
     <div className="App">
       <Wrapper>
         <Heading />
-        <Search />
-        <Employees employeeList={employeeList} />
+        <Search handleChange={handleChange} />
+        <Employees employeeList={employeeList} matchingEmployee={matchingEmployee} />
       </Wrapper>
     </div>
   );
