@@ -1,4 +1,4 @@
-import React, { useReducer, useState } from "react";
+import React, { useReducer } from "react";
 import Heading from "./components/Heading";
 import Search from "./components/Search";
 import Wrapper from "./components/Wrapper";
@@ -59,6 +59,3 @@ export default App;
 
 
 
-
-// Sort by one category
-//Filter by one property
